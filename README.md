@@ -1,7 +1,9 @@
-![orchestrating-containers with Kubernetes](kubernetes.png)
-##### Orchestrating containers with Kubernetes
+#### Orchestrating containers with Kubernetes
 
-Our aim is to achieve the following:
+![orchestrating-containers with Kubernetes](kubernetes.png)
+
+
+#### Our aim is to achieve the following:
 
 - Install and configure master (also known as control plane) components and worker nodes (or just nodes).
 - Apply security settings across the entire cluster (i.e., encrypting the data in transit, and at rest)
@@ -12,7 +14,7 @@ Our aim is to achieve the following:
 - Manage periodical upgrade of the cluster
 - Configure observability and auditing
 
-##### Tools to be used 
+#### Tools to be used 
 
 - VM: AWS EC2
 - OS: Ubuntu 20.04 lts+
@@ -22,7 +24,7 @@ Our aim is to achieve the following:
 - Kubernetes cluster
 - We shall create 3 EC2 Instances, and in the end, we will have the following parts of the cluster properly configured:
 
-##### Final Outcome 
+#### Final Outcome 
 - One Kubernetes Master
 - Two Kubernetes Worker Nodes
 - Configured SSL/TLS certificates for Kubernetes components to communicate securely
