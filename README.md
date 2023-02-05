@@ -1,4 +1,5 @@
 ![orchestrating-containers with Kubernetes](kubernetes.png)
+##### Orchestrating containers with Kubernetes
 
 Our aim is to achieve the following:
 
@@ -10,3 +11,20 @@ Our aim is to achieve the following:
 - Configure network plugins for the containers to communicate
 - Manage periodical upgrade of the cluster
 - Configure observability and auditing
+
+##### Tools to be used 
+
+- VM: AWS EC2
+- OS: Ubuntu 20.04 lts+
+- Docker Engine
+- kubectl console utility
+- cfssl and cfssljson utilities
+- Kubernetes cluster
+- We shall create 3 EC2 Instances, and in the end, we will have the following parts of the cluster properly configured:
+
+##### Final Outcome 
+- One Kubernetes Master
+- Two Kubernetes Worker Nodes
+- Configured SSL/TLS certificates for Kubernetes components to communicate securely
+- Configured Node Network
+- Configured Pod Network
