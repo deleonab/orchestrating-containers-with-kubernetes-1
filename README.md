@@ -1,4 +1,4 @@
-#### Orchestrating containers with Kubernetes
+### PROJECT: Orchestrating containers with Kubernetes
 
 ![orchestrating-containers with Kubernetes](kubernetes.png)
 
