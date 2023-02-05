@@ -1,0 +1,1 @@
+![orchestrating-containers with Kubernetes](kubernetes.png)
